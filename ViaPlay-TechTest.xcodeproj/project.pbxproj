@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87668A921E815F94005F0EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668A911E815F94005F0EDB /* AppDelegate.swift */; };
+		87668A941E815F94005F0EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668A931E815F94005F0EDB /* ViewController.swift */; };
+		87668A971E815F94005F0EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A951E815F94005F0EDB /* Main.storyboard */; };
+		87668A991E815F94005F0EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87668A981E815F94005F0EDB /* Assets.xcassets */; };
+		87668A9C1E815F94005F0EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */; };
+		87668AA71E815F94005F0EDB /* ViaPlay_TechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */; };
+		87668AB21E815F94005F0EDB /* ViaPlay_TechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87668AA31E815F94005F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87668A861E815F93005F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87668A8D1E815F93005F0EDB;
+			remoteInfo = "ViaPlay-TechTest";
+		};
+		87668AAE1E815F94005F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87668A861E815F93005F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87668A8D1E815F93005F0EDB;
+			remoteInfo = "ViaPlay-TechTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87668A8E1E815F94005F0EDB /* ViaPlay-TechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViaPlay-TechTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668A911E815F94005F0EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87668A931E815F94005F0EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87668A961E815F94005F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87668A981E815F94005F0EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87668A9B1E815F94005F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87668A9D1E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87668AA21E815F94005F0EDB /* ViaPlay-TechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlay_TechTestTests.swift; sourceTree = "<group>"; };
+		87668AA81E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87668AAD1E815F94005F0EDB /* ViaPlay-TechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlay_TechTestUITests.swift; sourceTree = "<group>"; };
+		87668AB31E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87668A8B1E815F93005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668A9F1E815F94005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AAA1E815F94005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87668A851E815F93005F0EDB = {
+			isa = PBXGroup;
+			children = (
+				87668A901E815F94005F0EDB /* ViaPlay-TechTest */,
+				87668AA51E815F94005F0EDB /* ViaPlay-TechTestTests */,
+				87668AB01E815F94005F0EDB /* ViaPlay-TechTestUITests */,
+				87668A8F1E815F94005F0EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87668A8F1E815F94005F0EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87668A8E1E815F94005F0EDB /* ViaPlay-TechTest.app */,
+				87668AA21E815F94005F0EDB /* ViaPlay-TechTestTests.xctest */,
+				87668AAD1E815F94005F0EDB /* ViaPlay-TechTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87668A901E815F94005F0EDB /* ViaPlay-TechTest */ = {
+			isa = PBXGroup;
+			children = (
+				87668A911E815F94005F0EDB /* AppDelegate.swift */,
+				87668A931E815F94005F0EDB /* ViewController.swift */,
+				87668A951E815F94005F0EDB /* Main.storyboard */,
+				87668A981E815F94005F0EDB /* Assets.xcassets */,
+				87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */,
+				87668A9D1E815F94005F0EDB /* Info.plist */,
+			);
+			path = "ViaPlay-TechTest";
+			sourceTree = "<group>";
+		};
+		87668AA51E815F94005F0EDB /* ViaPlay-TechTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */,
+				87668AA81E815F94005F0EDB /* Info.plist */,
+			);
+			path = "ViaPlay-TechTestTests";
+			sourceTree = "<group>";
+		};
+		87668AB01E815F94005F0EDB /* ViaPlay-TechTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */,
+				87668AB31E815F94005F0EDB /* Info.plist */,
+			);
+			path = "ViaPlay-TechTestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87668A8D1E815F93005F0EDB /* ViaPlay-TechTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668AB61E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTest" */;
+			buildPhases = (
+				87668A8A1E815F93005F0EDB /* Sources */,
+				87668A8B1E815F93005F0EDB /* Frameworks */,
+				87668A8C1E815F93005F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ViaPlay-TechTest";
+			productName = "ViaPlay-TechTest";
+			productReference = 87668A8E1E815F94005F0EDB /* ViaPlay-TechTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87668AA11E815F94005F0EDB /* ViaPlay-TechTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestTests" */;
+			buildPhases = (
+				87668A9E1E815F94005F0EDB /* Sources */,
+				87668A9F1E815F94005F0EDB /* Frameworks */,
+				87668AA01E815F94005F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87668AA41E815F94005F0EDB /* PBXTargetDependency */,
+			);
+			name = "ViaPlay-TechTestTests";
+			productName = "ViaPlay-TechTestTests";
+			productReference = 87668AA21E815F94005F0EDB /* ViaPlay-TechTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87668AAC1E815F94005F0EDB /* ViaPlay-TechTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestUITests" */;
+			buildPhases = (
+				87668AA91E815F94005F0EDB /* Sources */,
+				87668AAA1E815F94005F0EDB /* Frameworks */,
+				87668AAB1E815F94005F0EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87668AAF1E815F94005F0EDB /* PBXTargetDependency */,
+			);
+			name = "ViaPlay-TechTestUITests";
+			productName = "ViaPlay-TechTestUITests";
+			productReference = 87668AAD1E815F94005F0EDB /* ViaPlay-TechTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87668A861E815F93005F0EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alessandro dos Santos Pinto";
+				TargetAttributes = {
+					87668A8D1E815F93005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						ProvisioningStyle = Automatic;
+					};
+					87668AA11E815F94005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87668A8D1E815F93005F0EDB;
+					};
+					87668AAC1E815F94005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87668A8D1E815F93005F0EDB;
+					};
+				};
+			};
+			buildConfigurationList = 87668A891E815F93005F0EDB /* Build configuration list for PBXProject "ViaPlay-TechTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87668A851E815F93005F0EDB;
+			productRefGroup = 87668A8F1E815F94005F0EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87668A8D1E815F93005F0EDB /* ViaPlay-TechTest */,
+				87668AA11E815F94005F0EDB /* ViaPlay-TechTestTests */,
+				87668AAC1E815F94005F0EDB /* ViaPlay-TechTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87668A8C1E815F93005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87668A9C1E815F94005F0EDB /* LaunchScreen.storyboard in Resources */,
+				87668A991E815F94005F0EDB /* Assets.xcassets in Resources */,
+				87668A971E815F94005F0EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AA01E815F94005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AAB1E815F94005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87668A8A1E815F93005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87668A941E815F94005F0EDB /* ViewController.swift in Sources */,
+				87668A921E815F94005F0EDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668A9E1E815F94005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87668AA71E815F94005F0EDB /* ViaPlay_TechTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AA91E815F94005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87668AB21E815F94005F0EDB /* ViaPlay_TechTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87668AA41E815F94005F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87668A8D1E815F93005F0EDB /* ViaPlay-TechTest */;
+			targetProxy = 87668AA31E815F94005F0EDB /* PBXContainerItemProxy */;
+		};
+		87668AAF1E815F94005F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87668A8D1E815F93005F0EDB /* ViaPlay-TechTest */;
+			targetProxy = 87668AAE1E815F94005F0EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87668A951E815F94005F0EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87668A961E815F94005F0EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87668A9B1E815F94005F0EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87668AB41E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87668AB51E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87668AB71E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87668AB81E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTest/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87668ABA1E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaPlay-TechTest.app/ViaPlay-TechTest";
+			};
+			name = Debug;
+		};
+		87668ABB1E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaPlay-TechTest.app/ViaPlay-TechTest";
+			};
+			name = Release;
+		};
+		87668ABD1E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ViaPlay-TechTest";
+			};
+			name = Debug;
+		};
+		87668ABE1E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay-TechTestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ViaPlay-TechTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87668A891E815F93005F0EDB /* Build configuration list for PBXProject "ViaPlay-TechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668AB41E815F94005F0EDB /* Debug */,
+				87668AB51E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87668AB61E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668AB71E815F94005F0EDB /* Debug */,
+				87668AB81E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668ABA1E815F94005F0EDB /* Debug */,
+				87668ABB1E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668ABD1E815F94005F0EDB /* Debug */,
+				87668ABE1E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87668A861E815F93005F0EDB /* Project object */;
+}
