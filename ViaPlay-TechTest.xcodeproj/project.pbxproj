@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1130A4D91E830B6D00EA42E7 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1130A4D81E830B6D00EA42E7 /* Provider.swift */; };
+		11588C901E832136007330C3 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11588C8F1E832136007330C3 /* Loader.swift */; };
+		11588C951E83296C007330C3 /* URLCache+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11588C941E83296C007330C3 /* URLCache+Cache.swift */; };
+		11588C981E832988007330C3 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11588C961E832988007330C3 /* Session.swift */; };
+		11588C991E832988007330C3 /* SessionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11588C971E832988007330C3 /* SessionItem.swift */; };
+		1163A2751E84472300B1B526 /* ReverseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1163A2741E84472300B1B526 /* ReverseMappable.swift */; };
+		38F78CBC3690A5B123AB8BBE /* Pods_ViaPlay_TechTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC8C1E54075A37E72CDBF258 /* Pods_ViaPlay_TechTestTests.framework */; };
+		69B5C5F712591DF5FFAB7095 /* Pods_ViaPlay_TechTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC42BFB19342401E79266DDE /* Pods_ViaPlay_TechTestUITests.framework */; };
+		872FD08D1E82F631001742E7 /* ConnectionControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FD08C1E82F631001742E7 /* ConnectionControllerTests.swift */; };
+		872FD0901E82F69B001742E7 /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FD08F1E82F69B001742E7 /* SessionTests.swift */; };
+		872FD0931E82F6D2001742E7 /* SessionItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872FD0921E82F6D2001742E7 /* SessionItemTests.swift */; };
+		872FD0981E82FB3D001742E7 /* session.json in Resources */ = {isa = PBXBuildFile; fileRef = 872FD0971E82FB3D001742E7 /* session.json */; };
+		874E66C61E8173D900387532 /* ConnectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874E66C51E8173D900387532 /* ConnectionController.swift */; };
 		87668A921E815F94005F0EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668A911E815F94005F0EDB /* AppDelegate.swift */; };
-		87668A941E815F94005F0EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668A931E815F94005F0EDB /* ViewController.swift */; };
+		87668A941E815F94005F0EDB /* HomeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668A931E815F94005F0EDB /* HomeSessionViewController.swift */; };
 		87668A971E815F94005F0EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A951E815F94005F0EDB /* Main.storyboard */; };
 		87668A991E815F94005F0EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87668A981E815F94005F0EDB /* Assets.xcassets */; };
 		87668A9C1E815F94005F0EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */; };
-		87668AA71E815F94005F0EDB /* ViaPlay_TechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */; };
 		87668AB21E815F94005F0EDB /* ViaPlay_TechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */; };
+		878F3A171E84891C002DCDAA /* URLCache+CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A161E84891C002DCDAA /* URLCache+CacheTests.swift */; };
+		878F3A191E848944002DCDAA /* LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A181E848944002DCDAA /* LoaderTests.swift */; };
+		878F3A1C1E84899F002DCDAA /* ReverseMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */; };
+		878F3A1E1E8489BD002DCDAA /* ProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1D1E8489BD002DCDAA /* ProviderTests.swift */; };
+		878F3A201E848B11002DCDAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1F1E848B11002DCDAA /* main.swift */; };
+		8D98D0FAFFA131B07BB237EE /* Pods_ViaPlay_TechTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81C24890FE0842A89EFD219 /* Pods_ViaPlay_TechTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +52,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1130A4D81E830B6D00EA42E7 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Provider.swift; path = protocols/Provider.swift; sourceTree = "<group>"; };
+		11588C8F1E832136007330C3 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = controllers/Loader.swift; sourceTree = "<group>"; };
+		11588C941E83296C007330C3 /* URLCache+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLCache+Cache.swift"; path = "categories/URLCache+Cache.swift"; sourceTree = "<group>"; };
+		11588C961E832988007330C3 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Session.swift; path = models/Session.swift; sourceTree = "<group>"; };
+		11588C971E832988007330C3 /* SessionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionItem.swift; path = models/SessionItem.swift; sourceTree = "<group>"; };
+		1163A2741E84472300B1B526 /* ReverseMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseMappable.swift; path = protocols/ReverseMappable.swift; sourceTree = "<group>"; };
+		4A60AE7E78A73EE1C8D0A01D /* Pods-ViaPlay-TechTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTestTests/Pods-ViaPlay-TechTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64A528A7E386F3399AEB7F9F /* Pods-ViaPlay-TechTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTest/Pods-ViaPlay-TechTest.release.xcconfig"; sourceTree = "<group>"; };
+		866BE696A8CA20ADB3A3F760 /* Pods-ViaPlay-TechTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTestUITests/Pods-ViaPlay-TechTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		872FD08C1E82F631001742E7 /* ConnectionControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionControllerTests.swift; path = controllers/ConnectionControllerTests.swift; sourceTree = "<group>"; };
+		872FD08F1E82F69B001742E7 /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionTests.swift; path = models/SessionTests.swift; sourceTree = "<group>"; };
+		872FD0921E82F6D2001742E7 /* SessionItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SessionItemTests.swift; path = models/SessionItemTests.swift; sourceTree = "<group>"; };
+		872FD0971E82FB3D001742E7 /* session.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = session.json; path = fixtures/session.json; sourceTree = "<group>"; };
+		874E66C51E8173D900387532 /* ConnectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionController.swift; path = controllers/ConnectionController.swift; sourceTree = "<group>"; };
 		87668A8E1E815F94005F0EDB /* ViaPlay-TechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ViaPlay-TechTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87668A911E815F94005F0EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		87668A931E815F94005F0EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87668A911E815F94005F0EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = application/AppDelegate.swift; sourceTree = "<group>"; };
+		87668A931E815F94005F0EDB /* HomeSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeSessionViewController.swift; path = viewcontrollers/HomeSessionViewController.swift; sourceTree = "<group>"; };
 		87668A961E815F94005F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87668A981E815F94005F0EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87668A9B1E815F94005F0EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87668A9D1E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87668AA21E815F94005F0EDB /* ViaPlay-TechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlay_TechTestTests.swift; sourceTree = "<group>"; };
 		87668AA81E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87668AAD1E815F94005F0EDB /* ViaPlay-TechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlay_TechTestUITests.swift; sourceTree = "<group>"; };
 		87668AB31E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878F3A161E84891C002DCDAA /* URLCache+CacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLCache+CacheTests.swift"; path = "categories/URLCache+CacheTests.swift"; sourceTree = "<group>"; };
+		878F3A181E848944002DCDAA /* LoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoaderTests.swift; path = controllers/LoaderTests.swift; sourceTree = "<group>"; };
+		878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseMappableTests.swift; path = protocols/ReverseMappableTests.swift; sourceTree = "<group>"; };
+		878F3A1D1E8489BD002DCDAA /* ProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProviderTests.swift; path = protocols/ProviderTests.swift; sourceTree = "<group>"; };
+		878F3A1F1E848B11002DCDAA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Supporting Files/main.swift"; sourceTree = "<group>"; };
+		A81C24890FE0842A89EFD219 /* Pods_ViaPlay_TechTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay_TechTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8C1E54075A37E72CDBF258 /* Pods_ViaPlay_TechTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay_TechTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD191C90A33CE984F7A9D237 /* Pods-ViaPlay-TechTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTest/Pods-ViaPlay-TechTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC77ED9A22397F1370DAEEF /* Pods-ViaPlay-TechTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTestUITests/Pods-ViaPlay-TechTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AA3AFB88AFEFDD0454ED83 /* Pods-ViaPlay-TechTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTestTests/Pods-ViaPlay-TechTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		FC42BFB19342401E79266DDE /* Pods_ViaPlay_TechTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay_TechTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D98D0FAFFA131B07BB237EE /* Pods_ViaPlay_TechTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F78CBC3690A5B123AB8BBE /* Pods_ViaPlay_TechTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +112,132 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B5C5F712591DF5FFAB7095 /* Pods_ViaPlay_TechTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1130A4D71E830B0100EA42E7 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1163A2741E84472300B1B526 /* ReverseMappable.swift */,
+				1130A4D81E830B6D00EA42E7 /* Provider.swift */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		11588C911E8328F2007330C3 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				11588C941E83296C007330C3 /* URLCache+Cache.swift */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		20D3D610E33FF91A7CD1FF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A81C24890FE0842A89EFD219 /* Pods_ViaPlay_TechTest.framework */,
+				BC8C1E54075A37E72CDBF258 /* Pods_ViaPlay_TechTestTests.framework */,
+				FC42BFB19342401E79266DDE /* Pods_ViaPlay_TechTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CCC4BEB7E6926F88578F93C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD191C90A33CE984F7A9D237 /* Pods-ViaPlay-TechTest.debug.xcconfig */,
+				64A528A7E386F3399AEB7F9F /* Pods-ViaPlay-TechTest.release.xcconfig */,
+				4A60AE7E78A73EE1C8D0A01D /* Pods-ViaPlay-TechTestTests.debug.xcconfig */,
+				E9AA3AFB88AFEFDD0454ED83 /* Pods-ViaPlay-TechTestTests.release.xcconfig */,
+				CEC77ED9A22397F1370DAEEF /* Pods-ViaPlay-TechTestUITests.debug.xcconfig */,
+				866BE696A8CA20ADB3A3F760 /* Pods-ViaPlay-TechTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		872FD08E1E82F63B001742E7 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				872FD08C1E82F631001742E7 /* ConnectionControllerTests.swift */,
+				878F3A181E848944002DCDAA /* LoaderTests.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		872FD0911E82F6A0001742E7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				872FD08F1E82F69B001742E7 /* SessionTests.swift */,
+				872FD0921E82F6D2001742E7 /* SessionItemTests.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		872FD0961E82FA16001742E7 /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				872FD0971E82FB3D001742E7 /* session.json */,
+			);
+			name = fixtures;
+			sourceTree = "<group>";
+		};
+		874E66BF1E81673C00387532 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				87668A911E815F94005F0EDB /* AppDelegate.swift */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+		874E66C01E81674600387532 /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				87668A931E815F94005F0EDB /* HomeSessionViewController.swift */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		874E66C11E81676F00387532 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				87668A951E815F94005F0EDB /* Main.storyboard */,
+				87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		874E66C21E81677A00387532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87668A981E815F94005F0EDB /* Assets.xcassets */,
+				87668A9D1E815F94005F0EDB /* Info.plist */,
+				878F3A1F1E848B11002DCDAA /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		874E66C31E81682100387532 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				874E66C51E8173D900387532 /* ConnectionController.swift */,
+				11588C8F1E832136007330C3 /* Loader.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		874E66C41E81683E00387532 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				11588C961E832988007330C3 /* Session.swift */,
+				11588C971E832988007330C3 /* SessionItem.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		87668A851E815F93005F0EDB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +245,8 @@
 				87668AA51E815F94005F0EDB /* ViaPlay-TechTestTests */,
 				87668AB01E815F94005F0EDB /* ViaPlay-TechTestUITests */,
 				87668A8F1E815F94005F0EDB /* Products */,
+				2CCC4BEB7E6926F88578F93C /* Pods */,
+				20D3D610E33FF91A7CD1FF8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +263,14 @@
 		87668A901E815F94005F0EDB /* ViaPlay-TechTest */ = {
 			isa = PBXGroup;
 			children = (
-				87668A911E815F94005F0EDB /* AppDelegate.swift */,
-				87668A931E815F94005F0EDB /* ViewController.swift */,
-				87668A951E815F94005F0EDB /* Main.storyboard */,
-				87668A981E815F94005F0EDB /* Assets.xcassets */,
-				87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */,
-				87668A9D1E815F94005F0EDB /* Info.plist */,
+				11588C911E8328F2007330C3 /* categories */,
+				1130A4D71E830B0100EA42E7 /* protocols */,
+				874E66BF1E81673C00387532 /* application */,
+				874E66C31E81682100387532 /* controllers */,
+				874E66C41E81683E00387532 /* models */,
+				874E66C01E81674600387532 /* viewcontrollers */,
+				874E66C11E81676F00387532 /* views */,
+				874E66C21E81677A00387532 /* Supporting Files */,
 			);
 			path = "ViaPlay-TechTest";
 			sourceTree = "<group>";
@@ -110,8 +278,12 @@
 		87668AA51E815F94005F0EDB /* ViaPlay-TechTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				87668AA61E815F94005F0EDB /* ViaPlay_TechTestTests.swift */,
+				878F3A1A1E848975002DCDAA /* protocols */,
 				87668AA81E815F94005F0EDB /* Info.plist */,
+				878F3A151E8488E6002DCDAA /* categories */,
+				872FD08E1E82F63B001742E7 /* controllers */,
+				872FD0911E82F6A0001742E7 /* models */,
+				872FD0961E82FA16001742E7 /* fixtures */,
 			);
 			path = "ViaPlay-TechTestTests";
 			sourceTree = "<group>";
@@ -125,6 +297,23 @@
 			path = "ViaPlay-TechTestUITests";
 			sourceTree = "<group>";
 		};
+		878F3A151E8488E6002DCDAA /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				878F3A161E84891C002DCDAA /* URLCache+CacheTests.swift */,
+			);
+			name = categories;
+			sourceTree = "<group>";
+		};
+		878F3A1A1E848975002DCDAA /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */,
+				878F3A1D1E8489BD002DCDAA /* ProviderTests.swift */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87668AB61E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTest" */;
 			buildPhases = (
+				739F34A954358D48AB57005A /* [CP] Check Pods Manifest.lock */,
 				87668A8A1E815F93005F0EDB /* Sources */,
 				87668A8B1E815F93005F0EDB /* Frameworks */,
 				87668A8C1E815F93005F0EDB /* Resources */,
+				DE54EF4CB097A4788B1E31A1 /* [CP] Embed Pods Frameworks */,
+				31F7CA0C1D4911A72E2B2E48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +341,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestTests" */;
 			buildPhases = (
+				1EAFBAAC5128099042A7932F /* [CP] Check Pods Manifest.lock */,
 				87668A9E1E815F94005F0EDB /* Sources */,
 				87668A9F1E815F94005F0EDB /* Frameworks */,
 				87668AA01E815F94005F0EDB /* Resources */,
+				9AC27D92BECFBE1B69C141BD /* [CP] Embed Pods Frameworks */,
+				13DAD3B17AD03EE1F680BAD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestUITests" */;
 			buildPhases = (
+				D8BA8354A2C9E1FB8E5948D6 /* [CP] Check Pods Manifest.lock */,
 				87668AA91E815F94005F0EDB /* Sources */,
 				87668AAA1E815F94005F0EDB /* Frameworks */,
 				87668AAB1E815F94005F0EDB /* Resources */,
+				1DAA92DC2179A5316FA4D777 /* [CP] Embed Pods Frameworks */,
+				C7D4380C3ABC24873E5669B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +397,7 @@
 					87668AA11E815F94005F0EDB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = LZASXEKJ7F;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 87668A8D1E815F93005F0EDB;
 					};
@@ -245,6 +444,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872FD0981E82FB3D001742E7 /* session.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +457,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13DAD3B17AD03EE1F680BAD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTestTests/Pods-ViaPlay-TechTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DAA92DC2179A5316FA4D777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTestUITests/Pods-ViaPlay-TechTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EAFBAAC5128099042A7932F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		31F7CA0C1D4911A72E2B2E48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTest/Pods-ViaPlay-TechTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		739F34A954358D48AB57005A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC27D92BECFBE1B69C141BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTestTests/Pods-ViaPlay-TechTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7D4380C3ABC24873E5669B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTestUITests/Pods-ViaPlay-TechTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8BA8354A2C9E1FB8E5948D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE54EF4CB097A4788B1E31A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay-TechTest/Pods-ViaPlay-TechTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		87668A8A1E815F93005F0EDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87668A941E815F94005F0EDB /* ViewController.swift in Sources */,
+				11588C981E832988007330C3 /* Session.swift in Sources */,
+				87668A941E815F94005F0EDB /* HomeSessionViewController.swift in Sources */,
+				11588C951E83296C007330C3 /* URLCache+Cache.swift in Sources */,
+				878F3A201E848B11002DCDAA /* main.swift in Sources */,
+				1163A2751E84472300B1B526 /* ReverseMappable.swift in Sources */,
+				874E66C61E8173D900387532 /* ConnectionController.swift in Sources */,
+				1130A4D91E830B6D00EA42E7 /* Provider.swift in Sources */,
+				11588C901E832136007330C3 /* Loader.swift in Sources */,
 				87668A921E815F94005F0EDB /* AppDelegate.swift in Sources */,
+				11588C991E832988007330C3 /* SessionItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +617,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87668AA71E815F94005F0EDB /* ViaPlay_TechTestTests.swift in Sources */,
+				878F3A1E1E8489BD002DCDAA /* ProviderTests.swift in Sources */,
+				872FD0931E82F6D2001742E7 /* SessionItemTests.swift in Sources */,
+				878F3A191E848944002DCDAA /* LoaderTests.swift in Sources */,
+				878F3A1C1E84899F002DCDAA /* ReverseMappableTests.swift in Sources */,
+				878F3A171E84891C002DCDAA /* URLCache+CacheTests.swift in Sources */,
+				872FD0901E82F69B001742E7 /* SessionTests.swift in Sources */,
+				872FD08D1E82F631001742E7 /* ConnectionControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +763,7 @@
 		};
 		87668AB71E815F94005F0EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD191C90A33CE984F7A9D237 /* Pods-ViaPlay-TechTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
@@ -424,6 +777,7 @@
 		};
 		87668AB81E815F94005F0EDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A528A7E386F3399AEB7F9F /* Pods-ViaPlay-TechTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
@@ -437,14 +791,17 @@
 		};
 		87668ABA1E815F94005F0EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A60AE7E78A73EE1C8D0A01D /* Pods-ViaPlay-TechTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
 				INFOPLIST_FILE = "ViaPlay-TechTestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.delarge.ViaPlay-TechTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaPlay-TechTest.app/ViaPlay-TechTest";
 			};
@@ -452,9 +809,11 @@
 		};
 		87668ABB1E815F94005F0EDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AA3AFB88AFEFDD0454ED83 /* Pods-ViaPlay-TechTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
 				INFOPLIST_FILE = "ViaPlay-TechTestTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +826,7 @@
 		};
 		87668ABD1E815F94005F0EDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC77ED9A22397F1370DAEEF /* Pods-ViaPlay-TechTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
@@ -481,6 +841,7 @@
 		};
 		87668ABE1E815F94005F0EDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866BE696A8CA20ADB3A3F760 /* Pods-ViaPlay-TechTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = LZASXEKJ7F;
@@ -512,6 +873,7 @@
 				87668AB81E815F94005F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +882,7 @@
 				87668ABB1E815F94005F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay-TechTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +891,7 @@
 				87668ABE1E815F94005F0EDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

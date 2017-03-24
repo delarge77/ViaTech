@@ -29,8 +29,22 @@ class ViaPlay_TechTestUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        tablesQuery.staticTexts["series"].tap()
+        tablesQuery.staticTexts["movie"].tap()
+        tablesQuery.children(matching: .cell).element(boundBy: 2).staticTexts["sport"].tap()
+        
+        let backButton = app.navigationBars["ViaPlay_TechTest.HomeSessionView"].children(matching: .button).matching(identifier: "Back").element(boundBy: 0)
+        backButton.tap()
+        tablesQuery.staticTexts["kids"].tap()
+        backButton.tap()
+        backButton.tap()
+        backButton.tap()
+        
     }
+    
+    
     
 }

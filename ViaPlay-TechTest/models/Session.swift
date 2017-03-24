@@ -11,16 +11,29 @@ import Mapper
 
 struct Session: Mappable {
 
-    let title:String?
-    let descSession:String?
-    let sessionId:String?
-    let sessionItem:[SessionItem]?
-    
+    let title: String
+    let descSession: String
+    let sessionId: String?
+    let sessionItem: [SessionItem]?
+
     // MARK: - Deserialization
     init(map: Mapper) throws {
         try title = map.from("title")
         try descSession = map.from("description")
         sessionId = map.optionalFrom("sectionId")
         sessionItem = map.optionalFrom("_links.viaplay:sections") ?? []
+    }
+}
+
+extension Session: ReverseMappable {
+    func toJSON() -> Any? {
+        return [
+            "title": title,
+            "description": descSession,
+            "sectionId": sessionId ?? "",
+            "_links": [
+                "viaplay:sections": sessionItem?.toJSON() ?? []
+            ]
+        ]
     }
 }

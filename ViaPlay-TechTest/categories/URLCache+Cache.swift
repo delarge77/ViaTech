@@ -2,7 +2,7 @@
 //  URLCache+Cache.swift
 //  ViaPlay-TechTest
 //
-//  Created by Leonardo Formaggio on 3/22/17.
+//  Created by Alessandro dos Santos Pinto on 21/03/2017.
 //  Copyright © 2017 Alessandro dos Santos Pinto. All rights reserved.
 //
 
@@ -32,7 +32,7 @@ extension URLCache : Cache {
     }
 
     func cacheSession(session: Session, url: URL) {
-        guard let JSON = try? NSDictionary.fromMap(session) else {
+        guard let JSON = session.toJSON() else {
             return
         }
 

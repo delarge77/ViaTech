@@ -1,3 +1,11 @@
+//
+//  ReverseMappable.swift
+//  ViaPlay-TechTest
+//
+//  Created by Alessandro dos Santos Pinto on 22/03/2017.
+//  Copyright © 2017 Alessandro dos Santos Pinto. All rights reserved.
+//
+
 import Foundation
 
 public protocol ReverseMappable {
@@ -37,13 +45,6 @@ extension Bool: ReverseMappable {
 extension URL: ReverseMappable {
     public func toJSON() -> Any? {
         return absoluteString
-    }
-}
-
-extension Date: ReverseMappable {
-    public func toJSON() -> Any? {
-        let timeZone = TimeZone(secondsFromGMT: 0)!
-        return Date.iso8601DateFormatter.string(from: self, timeZone: timeZone)
     }
 }
 

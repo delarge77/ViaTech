@@ -7,7 +7,33 @@
 //
 
 import UIKit
+import Alamofire
 
-class ConnectionController: NSObject {
+struct ConnectionController {
+    static let shared = ConnectionController()
+}
 
+extension ConnectionController : Provider {
+    func session(url: URL?, completion: @escaping (Session?) -> Void) {
+        let url = url ?? defaultURL
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 60)
+
+        Alamofire.request(request).responseJSON { response in
+            if let status = response.response?.statusCode {
+                switch(status){
+                case 200:
+                    if let JSON = response.result.value as? NSDictionary {
+                        let session = Session.from(JSON)
+                        completion(session)
+                    } else {
+                        completion(nil)
+                    }
+                default:
+                    completion(nil)
+                }
+            } else {
+                completion(nil)
+            }
+        }
+    }
 }

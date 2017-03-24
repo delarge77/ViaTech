@@ -1,0 +1,6 @@
+framework module Pods_ViaPlay_TechTest {
+  umbrella header "Pods-ViaPlay-TechTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -6,10 +6,10 @@
 //  Copyright © 2017 Alessandro dos Santos Pinto. All rights reserved.
 //
 
-//import UIKit
+import UIKit
 
-//let appDelegateClass: AnyClass? =
-//    NSClassFromString("ViaPlay-TechTest.ViaPlayTestsAppDelegate") ?? AppDelegate.self
-//let args = UnsafeMutableRawPointer(CommandLine.unsafeArgv)
-//    .bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc))
-//UIApplicationMain(CommandLine.argc, args, nil, NSStringFromClass(appDelegateClass!))
+let appDelegateClass: AnyClass? =
+    NSClassFromString("ViaPlay-TechTest.ViaPlayTestsAppDelegate") ?? AppDelegate.self
+let args = UnsafeMutableRawPointer(CommandLine.unsafeArgv)
+    .bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc))
+UIApplicationMain(CommandLine.argc, args, nil, NSStringFromClass(appDelegateClass!))

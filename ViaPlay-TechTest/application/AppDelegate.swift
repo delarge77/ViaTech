@@ -8,7 +8,10 @@
 
 import UIKit
 
-@UIApplicationMain
+class ViaPlayTestsAppDelegate: NSObject {
+    var window: UIWindow?
+}
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
