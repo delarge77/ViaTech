@@ -25,12 +25,12 @@ class HomeSessionViewController: UIViewController {
 
     private func loadSessionDataWithEndpoint(_: URL?)-> Void {
         spinner.startAnimating()
-        Loader.shared.session(url: endpoint) { session in
-            self.sessionTitleLabel.text = session?.title
-            self.sessionDescriptionLabel.text = session?.descSession
-            self.sessions = session?.sessionItem ?? []
-            self.sessionTableView.reloadData()
-            self.spinner.stopAnimating()
+        Loader.shared.session(url: endpoint) { [weak self] session in
+            self?.sessionTitleLabel.text = session?.title
+            self?.sessionDescriptionLabel.text = session?.descSession
+            self?.sessions = session?.sessionItem ?? []
+            self?.sessionTableView.reloadData()
+            self?.spinner.stopAnimating()
         }
     }
 }
