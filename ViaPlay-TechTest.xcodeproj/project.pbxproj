@@ -278,8 +278,8 @@
 		87668AA51E815F94005F0EDB /* ViaPlay-TechTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				878F3A1A1E848975002DCDAA /* protocols */,
 				87668AA81E815F94005F0EDB /* Info.plist */,
+				878F3A1A1E848975002DCDAA /* protocols */,
 				878F3A151E8488E6002DCDAA /* categories */,
 				872FD08E1E82F63B001742E7 /* controllers */,
 				872FD0911E82F6A0001742E7 /* models */,

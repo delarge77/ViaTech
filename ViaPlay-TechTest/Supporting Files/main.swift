@@ -8,8 +8,8 @@
 
 import UIKit
 
-let appDelegateClass: AnyClass? =
-    NSClassFromString("ViaPlay-TechTest.ViaPlayTestsAppDelegate") ?? AppDelegate.self
-let args = UnsafeMutableRawPointer(CommandLine.unsafeArgv)
-    .bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc))
-UIApplicationMain(CommandLine.argc, args, nil, NSStringFromClass(appDelegateClass!))
+private func delegateClassName() -> String? {
+    return NSClassFromString("XCTestCase") == nil ? NSStringFromClass(AppDelegate.self) : nil
+}
+
+UIApplicationMain(CommandLine.argc, UnsafeMutableRawPointer(CommandLine.unsafeArgv).bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc)), nil, delegateClassName())

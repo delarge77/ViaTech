@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>OHHTTPStubs.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ViaPlay-TechTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +37,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E59EB857F691BE6AAC8AA97C5B366E7</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>68277FC568EC0A58FDE0A6E170D54217</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>748F1C7F61D88F3FB355A8E829489671</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>999401B72FF82AEFEF08C8229FBB7BFB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,8 +7,35 @@
 //
 
 import XCTest
+import Foundation
+@testable import ViaPlay_TechTest
 
 class URLCache_CacheTests: XCTestCase {
     
+    let url = URL(string: "https://www.apple.com")!
+    var session: Session!
+    
+    override func setUp() {
+        let JSON = ["title": "Ttitle", "description": "Description"] as NSDictionary
+        session = Session.from(JSON)
+    }
+    
+    func testWritesSessionToCache() {
+        let cache = URLCache()
+        cache.cacheSession(session: session, url: url)
+        
+        let request = URLRequest(url: url)
+        let response = cache.cachedResponse(for: request)
+        XCTAssertNotNil(response)
+    }
+    
+    func testReadsSessionFromCache() {
+        let cache = URLCache()
+        cache.cacheSession(session: session, url: url)
+        
+        cache.session(url: url) { session in
+            XCTAssertNotNil(session)
+        }
+    }
     
 }

@@ -7,8 +7,8 @@
 //
 
 import XCTest
+import Foundation
 
 class SessionItemTests: XCTestCase {
-    
     
 }

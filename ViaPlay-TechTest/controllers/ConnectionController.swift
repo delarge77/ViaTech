@@ -16,7 +16,7 @@ struct ConnectionController {
 extension ConnectionController : Provider {
     func session(url: URL?, completion: @escaping (Session?) -> Void) {
         let url = url ?? defaultURL
-        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 60)
+        let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
 
         Alamofire.request(request).responseJSON { response in
             if let status = response.response?.statusCode {

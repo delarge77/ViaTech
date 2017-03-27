@@ -23,17 +23,30 @@ struct Session: Mappable {
         sessionId = map.optionalFrom("sectionId")
         sessionItem = map.optionalFrom("_links.viaplay:sections") ?? []
     }
+    
+    init(title: String, descSession: String, sessionId: String?, sessionItem: [SessionItem]?) {
+        self.title = title
+        self.descSession = descSession
+        self.sessionId = sessionId
+        self.sessionItem = sessionItem
+    }
 }
 
 extension Session: ReverseMappable {
     func toJSON() -> Any? {
-        return [
+        var result: [String: Any] = [
             "title": title,
-            "description": descSession,
-            "sectionId": sessionId ?? "",
-            "_links": [
-                "viaplay:sections": sessionItem?.toJSON() ?? []
-            ]
+            "description": descSession
         ]
+        
+        if let sessionId = sessionId {
+            result["sectionId"] = sessionId
+        }
+        
+        if let sessionItem = sessionItem?.toJSON() {
+            result["_links"] = ["viaplay:sections": sessionItem]
+        }
+        
+        return result
     }
 }
