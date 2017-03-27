@@ -32,17 +32,39 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let txt = json as? String {
+            XCTAssertEqual(txt, "reversable")
+        }
     }
     
     func testReverseMappableFloat() {
-        let value = -273.15
+        let value: Float = 3.14159
         
         guard let json = value.toJSON() else {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let json = json as? Float {
+            XCTAssertEqual(json, 3.14159)
+        }
+    }
+    
+    func testReverseMappableDouble() {
+        let value: Double = 10.34
+        
+        guard let json = value.toJSON() else {
+            return
+        }
+        
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let json = json as? Double {
+            XCTAssertEqual(json, 10.34)
+        }
     }
     
     func testReverseMappableInt() {
@@ -52,7 +74,11 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let json = json as? Int {
+            XCTAssertEqual(json, 2)
+        }
     }
     
     func testReverseMappableURL() {
@@ -62,7 +88,7 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
     }
     
     func testReverseMappableBool() {
@@ -72,7 +98,7 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
     }
     
     func testReverseMappableDictionary() {
@@ -85,7 +111,7 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
     }
     
     func testReverseMappableArray() {
@@ -95,7 +121,7 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "value must not be nil");
     }
     
     func testReverseMappableOptional() {
@@ -106,17 +132,59 @@ class ReverseMappableTests: XCTestCase {
             return
         }
         
-        XCTAssertNotNil(json, "");
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let txt = json as? String {
+            XCTAssertEqual(txt, "Viaplay")
+        }
     }
     
-//    func testReverseMappableOptionalArray() {
-//        
-//        let array: [ReverseMappable]? = []
-//        
-//        guard let json = array.toJSON() else {
-//            return
-//        }
-//        
-//        XCTAssertNotNil(json, "");
-//    }
+    func testReverseMappableOptionalArray() {
+        
+        let value: [Int]? = [1, 2, 3]
+        
+        guard let json = value.toJSON() else {
+            return
+        }
+        
+        XCTAssertNotNil(json, "Value must not be nil");
+        
+        if let json = json as? NSArray {
+            XCTAssertEqual(json, [1, 2, 3])
+        }
+    }
+    
+    func testReverseMappableEnum() {
+        
+        enum Suit: String, ReverseMappable {
+            case spades = "♠"
+            case hearts = "♥"
+            case diamonds = "♦"
+            case clubs = "♣"
+        }
+        
+        guard let spades = Suit.spades.toJSON() else {
+            return
+        }
+        
+        guard let hearts = Suit.hearts.toJSON() else {
+            return
+        }
+        guard let diamonds = Suit.diamonds.toJSON() else {
+            return
+        }
+        
+        guard let clubs = Suit.clubs.toJSON() else {
+            return
+        }
+        
+        XCTAssertNotNil(spades, "Value must not be nil");
+        XCTAssertEqual(Suit.spades.rawValue, "♠")
+        XCTAssertNotNil(hearts, "Value must not be nil");
+        XCTAssertEqual(Suit.hearts.rawValue, "♥")
+        XCTAssertNotNil(diamonds, "Value must not be nil");
+        XCTAssertEqual(Suit.diamonds.rawValue, "♦")
+        XCTAssertNotNil(clubs, "Value must not be nil");
+        XCTAssertEqual(Suit.clubs.rawValue, "♣")
+    }
 }
