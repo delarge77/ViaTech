@@ -108,4 +108,15 @@ class ReverseMappableTests: XCTestCase {
         
         XCTAssertNotNil(json, "");
     }
+    
+//    func testReverseMappableOptionalArray() {
+//        
+//        let array: [ReverseMappable]? = []
+//        
+//        guard let json = array.toJSON() else {
+//            return
+//        }
+//        
+//        XCTAssertNotNil(json, "");
+//    }
 }

@@ -31,6 +31,8 @@
 		878F3A1C1E84899F002DCDAA /* ReverseMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */; };
 		878F3A1E1E8489BD002DCDAA /* ProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1D1E8489BD002DCDAA /* ProviderTests.swift */; };
 		878F3A201E848B11002DCDAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1F1E848B11002DCDAA /* main.swift */; };
+		87FF20311E8984080074C6EF /* sessionItens.json in Resources */ = {isa = PBXBuildFile; fileRef = 87FF20301E8984080074C6EF /* sessionItens.json */; };
+		87FF20331E898B020074C6EF /* sessionItem.json in Resources */ = {isa = PBXBuildFile; fileRef = 87FF20321E898B020074C6EF /* sessionItem.json */; };
 		8D98D0FAFFA131B07BB237EE /* Pods_ViaPlay_TechTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81C24890FE0842A89EFD219 /* Pods_ViaPlay_TechTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +85,8 @@
 		878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseMappableTests.swift; path = protocols/ReverseMappableTests.swift; sourceTree = "<group>"; };
 		878F3A1D1E8489BD002DCDAA /* ProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProviderTests.swift; path = protocols/ProviderTests.swift; sourceTree = "<group>"; };
 		878F3A1F1E848B11002DCDAA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = "Supporting Files/main.swift"; sourceTree = "<group>"; };
+		87FF20301E8984080074C6EF /* sessionItens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sessionItens.json; path = fixtures/sessionItens.json; sourceTree = "<group>"; };
+		87FF20321E898B020074C6EF /* sessionItem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sessionItem.json; path = fixtures/sessionItem.json; sourceTree = "<group>"; };
 		A81C24890FE0842A89EFD219 /* Pods_ViaPlay_TechTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay_TechTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC8C1E54075A37E72CDBF258 /* Pods_ViaPlay_TechTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay_TechTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD191C90A33CE984F7A9D237 /* Pods-ViaPlay-TechTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay-TechTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay-TechTest/Pods-ViaPlay-TechTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				872FD0971E82FB3D001742E7 /* session.json */,
+				87FF20301E8984080074C6EF /* sessionItens.json */,
+				87FF20321E898B020074C6EF /* sessionItem.json */,
 			);
 			name = fixtures;
 			sourceTree = "<group>";
@@ -444,6 +450,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FF20331E898B020074C6EF /* sessionItem.json in Resources */,
+				87FF20311E8984080074C6EF /* sessionItens.json in Resources */,
 				872FD0981E82FB3D001742E7 /* session.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

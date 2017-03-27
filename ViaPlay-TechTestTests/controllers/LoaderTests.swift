@@ -9,7 +9,6 @@
 import XCTest
 import OHHTTPStubs
 import UIKit
-
 @testable import ViaPlay_TechTest
 
 class LoaderTests: XCTestCase {
@@ -27,6 +26,28 @@ class LoaderTests: XCTestCase {
         }
         
         Loader.shared.session(url: nil) { session in
+            XCTAssertNotNil(session, "must not be nil")
+            expec.fulfill()
+        }
+        
+        waitForExpectations(timeout: 10) { error in
+            if let error = error {
+                print("Error : \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    func testMustLoadContentWithOutNetworkConnection(){
+        
+        let expec = expectation(description: "")
+        
+        stub(condition: isHost("content.viaplay.se")) { session in
+            let notConnectedError = NSError(domain:NSURLErrorDomain, code:Int(CFNetworkErrors.cfurlErrorNotConnectedToInternet.rawValue), userInfo:nil)
+            return OHHTTPStubsResponse(error:notConnectedError)
+            
+        }
+        
+        Loader.shared.session(url: URL(string: "https://content.viaplay.se/iphone-se")) { session in
             XCTAssertNotNil(session, "must not be nil")
             expec.fulfill()
         }

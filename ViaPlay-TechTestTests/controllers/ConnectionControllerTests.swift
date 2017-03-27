@@ -29,35 +29,13 @@ class ConnectionControllerTests: XCTestCase {
         }
     }
     
-    func testDownNetworkConnection(){
-        
-        let expec = expectation(description: "")
-        
-        stub(condition: isHost("content.viaplay.se")) { session in
-            let notConnectedError = NSError(domain:NSURLErrorDomain, code:Int(CFNetworkErrors.cfurlErrorNotConnectedToInternet.rawValue), userInfo:nil)
-            return OHHTTPStubsResponse(error:notConnectedError)
-
-        }
-        
-        ConnectionController.shared.session(url: nil) { session in
-            XCTAssertNil(session, "must not be nil")
-            expec.fulfill()
-        }
-        
-        waitForExpectations(timeout: 10) { error in
-            if let error = error {
-                print("Error : \(error.localizedDescription)")
-            }
-        }
-    }
-    
     func testBadNetworkConnection(){
         
         let expec = expectation(description: "")
         
         stub(condition: isHost("content.viaplay.se")) { session in
             return OHHTTPStubsResponse(jsonObject:[], statusCode:200, headers:nil)
-                            .requestTime(1.0, responseTime: 5.0)
+                            .requestTime(1.0, responseTime: 10.0)
         }
         
         ConnectionController.shared.session(url: nil) { session in
@@ -65,7 +43,7 @@ class ConnectionControllerTests: XCTestCase {
             expec.fulfill()
         }
         
-        waitForExpectations(timeout: 10) { error in
+        waitForExpectations(timeout: 15) { error in
             if let error = error {
                 print("Error : \(error.localizedDescription)")
             }
@@ -91,8 +69,6 @@ class ConnectionControllerTests: XCTestCase {
             }
         }
     }
-    
-    //URL(string: "https://content.viaplay.se/iphone-se")!
     
     override func tearDown() {
         super.tearDown()

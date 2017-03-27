@@ -8,6 +8,7 @@
 
 import XCTest
 import Foundation
+import OHHTTPStubs
 @testable import ViaPlay_TechTest
 
 class URLCache_CacheTests: XCTestCase {
@@ -38,4 +39,11 @@ class URLCache_CacheTests: XCTestCase {
         }
     }
     
+    func testShouldFailRequestWithWrongURL() {
+        let url = URL(string: "/")
+        let cache = URLCache()
+        cache.session(url: url!) { session in
+            XCTAssertNil(session, "Return must be nil")
+        }
+    }
 }
