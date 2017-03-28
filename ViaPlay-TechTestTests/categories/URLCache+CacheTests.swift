@@ -46,4 +46,11 @@ class URLCache_CacheTests: XCTestCase {
             XCTAssertNil(session, "Return must be nil")
         }
     }
+    
+    func testLoadCacheWithNullURL() {
+        let cache = URLCache()
+        cache.session(url: URL(string: "")) { session in
+            XCTAssertNotNil(session, "Session could not be nil")
+        }
+    }
 }

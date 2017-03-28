@@ -25,7 +25,7 @@
 		87668A971E815F94005F0EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A951E815F94005F0EDB /* Main.storyboard */; };
 		87668A991E815F94005F0EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87668A981E815F94005F0EDB /* Assets.xcassets */; };
 		87668A9C1E815F94005F0EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87668A9A1E815F94005F0EDB /* LaunchScreen.storyboard */; };
-		87668AB21E815F94005F0EDB /* ViaPlay_TechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */; };
+		87668AB21E815F94005F0EDB /* DummyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87668AB11E815F94005F0EDB /* DummyUITests.swift */; };
 		878F3A171E84891C002DCDAA /* URLCache+CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A161E84891C002DCDAA /* URLCache+CacheTests.swift */; };
 		878F3A191E848944002DCDAA /* LoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A181E848944002DCDAA /* LoaderTests.swift */; };
 		878F3A1C1E84899F002DCDAA /* ReverseMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878F3A1B1E84899F002DCDAA /* ReverseMappableTests.swift */; };
@@ -77,7 +77,7 @@
 		87668AA21E815F94005F0EDB /* ViaPlay-TechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87668AA81E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87668AAD1E815F94005F0EDB /* ViaPlay-TechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ViaPlay-TechTestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViaPlay_TechTestUITests.swift; sourceTree = "<group>"; };
+		87668AB11E815F94005F0EDB /* DummyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyUITests.swift; sourceTree = "<group>"; };
 		87668AB31E815F94005F0EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878F3A161E84891C002DCDAA /* URLCache+CacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "URLCache+CacheTests.swift"; path = "categories/URLCache+CacheTests.swift"; sourceTree = "<group>"; };
 		878F3A181E848944002DCDAA /* LoaderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoaderTests.swift; path = controllers/LoaderTests.swift; sourceTree = "<group>"; };
@@ -295,7 +295,7 @@
 		87668AB01E815F94005F0EDB /* ViaPlay-TechTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				87668AB11E815F94005F0EDB /* ViaPlay_TechTestUITests.swift */,
+				87668AB11E815F94005F0EDB /* DummyUITests.swift */,
 				87668AB31E815F94005F0EDB /* Info.plist */,
 			);
 			path = "ViaPlay-TechTestUITests";
@@ -635,7 +635,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87668AB21E815F94005F0EDB /* ViaPlay_TechTestUITests.swift in Sources */,
+				87668AB21E815F94005F0EDB /* DummyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

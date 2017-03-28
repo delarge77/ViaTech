@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ViaPlay_TechTestUITests: XCTestCase {
+class DummyUItests: XCTestCase {
         
     override func setUp() {
         super.setUp()
