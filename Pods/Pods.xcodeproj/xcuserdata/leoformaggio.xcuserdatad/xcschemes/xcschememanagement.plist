@@ -6,38 +6,48 @@
 	<dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
 		<key>ModelMapper.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-ViaPlay-TechTest.xcscheme</key>
+		<key>OHHTTPStubs.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>3</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-ViaPlay-TechTestTests.xcscheme</key>
+		<key>Pods-ViaPlay.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
 		</dict>
-		<key>Pods-ViaPlay-TechTestUITests.xcscheme</key>
+		<key>Pods-ViaPlayTests.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>5</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ViaPlayUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4E59EB857F691BE6AAC8AA97C5B366E7</key>
+		<key>38EEF7E5980E3B67C5DA6FB9806548A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>68277FC568EC0A58FDE0A6E170D54217</key>
+		<key>6A5147A1FF94436200BD691566D4C8D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>748F1C7F61D88F3FB355A8E829489671</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E94FE62EE0581A4D52898BFD668F0022</key>
+		<key>CBC024CCB48BDCF05DD029390F3FD3BD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

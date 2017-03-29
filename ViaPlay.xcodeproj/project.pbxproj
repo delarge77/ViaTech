@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115685471E8B107E005F823E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685321E8B107E005F823E /* AppDelegate.swift */; };
+		115685491E8B107E005F823E /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685351E8B107E005F823E /* Client.swift */; };
+		1156854A1E8B107E005F823E /* ViaPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685361E8B107E005F823E /* ViaPlay.swift */; };
+		1156854B1E8B107E005F823E /* URLCache+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685381E8B107E005F823E /* URLCache+Cache.swift */; };
+		1156854C1E8B107E005F823E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156853A1E8B107E005F823E /* LaunchScreen.storyboard */; };
+		1156854D1E8B107E005F823E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1156853B1E8B107E005F823E /* Main.storyboard */; };
+		1156854E1E8B107E005F823E /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156853D1E8B107E005F823E /* Session.swift */; };
+		1156854F1E8B107E005F823E /* SessionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156853E1E8B107E005F823E /* SessionItem.swift */; };
+		115685501E8B107E005F823E /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685401E8B107E005F823E /* Provider.swift */; };
+		115685511E8B107E005F823E /* ReverseMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685411E8B107E005F823E /* ReverseMappable.swift */; };
+		115685531E8B107E005F823E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685441E8B107E005F823E /* main.swift */; };
+		115685541E8B107E005F823E /* HomeSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685461E8B107E005F823E /* HomeSessionViewController.swift */; };
+		115685571E8B10BA005F823E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115685561E8B10BA005F823E /* Assets.xcassets */; };
+		11A197B51E8B19290010205C /* ViaPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685141E8B1000005F823E /* ViaPlayUITests.swift */; };
+		11A197B61E8B19330010205C /* URLCache+CacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685051E8B1000005F823E /* URLCache+CacheTests.swift */; };
+		11A197B71E8B19330010205C /* ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685071E8B1000005F823E /* ClientTests.swift */; };
+		11A197B81E8B19330010205C /* ViaPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685081E8B1000005F823E /* ViaPlayTests.swift */; };
+		11A197B91E8B19330010205C /* SessionItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1156850F1E8B1000005F823E /* SessionItemTests.swift */; };
+		11A197BA1E8B19330010205C /* SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685101E8B1000005F823E /* SessionTests.swift */; };
+		11A197BB1E8B19330010205C /* ReverseMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115685121E8B1000005F823E /* ReverseMappableTests.swift */; };
+		11A197BC1E8B19A90010205C /* session.json in Resources */ = {isa = PBXBuildFile; fileRef = 1156850A1E8B1000005F823E /* session.json */; };
+		11A197BD1E8B19A90010205C /* sessionItem.json in Resources */ = {isa = PBXBuildFile; fileRef = 1156850B1E8B1000005F823E /* sessionItem.json */; };
+		11A197BE1E8B19A90010205C /* sessionItens.json in Resources */ = {isa = PBXBuildFile; fileRef = 1156850C1E8B1000005F823E /* sessionItens.json */; };
+		3554ACFE4C3421A2733C30CB /* Pods_ViaPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBEEAB366ED40C47808F24C /* Pods_ViaPlay.framework */; };
+		3B9DFE916B819865EF211DB0 /* Pods_ViaPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796C10044F0AB20077D62CC5 /* Pods_ViaPlayTests.framework */; };
+		E52D43AB5D7C2F13A39F58AC /* Pods_ViaPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E9384435B4659561D4F0B85 /* Pods_ViaPlayUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87668AA31E815F94005F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87668A861E815F93005F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87668A8D1E815F93005F0EDB;
+			remoteInfo = "ViaPlay-TechTest";
+		};
+		87668AAE1E815F94005F0EDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87668A861E815F93005F0EDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87668A8D1E815F93005F0EDB;
+			remoteInfo = "ViaPlay-TechTest";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		032D33BAAA45168EDC341E68 /* Pods-ViaPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay/Pods-ViaPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		0E0547667C4782C3E9943023 /* Pods-ViaPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlayTests/Pods-ViaPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		115685051E8B1000005F823E /* URLCache+CacheTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLCache+CacheTests.swift"; sourceTree = "<group>"; };
+		115685071E8B1000005F823E /* ClientTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTests.swift; sourceTree = "<group>"; };
+		115685081E8B1000005F823E /* ViaPlayTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViaPlayTests.swift; sourceTree = "<group>"; };
+		1156850A1E8B1000005F823E /* session.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = session.json; sourceTree = "<group>"; };
+		1156850B1E8B1000005F823E /* sessionItem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sessionItem.json; sourceTree = "<group>"; };
+		1156850C1E8B1000005F823E /* sessionItens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sessionItens.json; sourceTree = "<group>"; };
+		1156850D1E8B1000005F823E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1156850F1E8B1000005F823E /* SessionItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionItemTests.swift; sourceTree = "<group>"; };
+		115685101E8B1000005F823E /* SessionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTests.swift; sourceTree = "<group>"; };
+		115685121E8B1000005F823E /* ReverseMappableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseMappableTests.swift; sourceTree = "<group>"; };
+		115685141E8B1000005F823E /* ViaPlayUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViaPlayUITests.swift; sourceTree = "<group>"; };
+		115685151E8B1000005F823E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115685321E8B107E005F823E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		115685351E8B107E005F823E /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		115685361E8B107E005F823E /* ViaPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViaPlay.swift; sourceTree = "<group>"; };
+		115685381E8B107E005F823E /* URLCache+Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLCache+Cache.swift"; sourceTree = "<group>"; };
+		1156853A1E8B107E005F823E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1156853B1E8B107E005F823E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1156853D1E8B107E005F823E /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		1156853E1E8B107E005F823E /* SessionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionItem.swift; sourceTree = "<group>"; };
+		115685401E8B107E005F823E /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		115685411E8B107E005F823E /* ReverseMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseMappable.swift; sourceTree = "<group>"; };
+		115685431E8B107E005F823E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		115685441E8B107E005F823E /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		115685461E8B107E005F823E /* HomeSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSessionViewController.swift; sourceTree = "<group>"; };
+		115685561E8B10BA005F823E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA9FFAE850FDF9BC6279AD9 /* Pods-ViaPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlayUITests/Pods-ViaPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		259F0F4A6A1296650A186119 /* Pods-ViaPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlayUITests/Pods-ViaPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E9384435B4659561D4F0B85 /* Pods_ViaPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796C10044F0AB20077D62CC5 /* Pods_ViaPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668A8E1E815F94005F0EDB /* ViaPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViaPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668AA21E815F94005F0EDB /* ViaPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87668AAD1E815F94005F0EDB /* ViaPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViaPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD391E6D0AEDAFAB19A4AF2C /* Pods-ViaPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlay/Pods-ViaPlay.release.xcconfig"; sourceTree = "<group>"; };
+		F14BE8BE0A0032C7143A1568 /* Pods-ViaPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViaPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViaPlayTests/Pods-ViaPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDBEEAB366ED40C47808F24C /* Pods_ViaPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViaPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87668A8B1E815F93005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3554ACFE4C3421A2733C30CB /* Pods_ViaPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668A9F1E815F94005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9DFE916B819865EF211DB0 /* Pods_ViaPlayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AAA1E815F94005F0EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52D43AB5D7C2F13A39F58AC /* Pods_ViaPlayUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		115685031E8B1000005F823E /* ViaPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				115685041E8B1000005F823E /* categories */,
+				115685061E8B1000005F823E /* controllers */,
+				115685091E8B1000005F823E /* fixtures */,
+				1156850D1E8B1000005F823E /* Info.plist */,
+				1156850E1E8B1000005F823E /* models */,
+				115685111E8B1000005F823E /* protocols */,
+			);
+			path = ViaPlayTests;
+			sourceTree = "<group>";
+		};
+		115685041E8B1000005F823E /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				115685051E8B1000005F823E /* URLCache+CacheTests.swift */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		115685061E8B1000005F823E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				115685071E8B1000005F823E /* ClientTests.swift */,
+				115685081E8B1000005F823E /* ViaPlayTests.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		115685091E8B1000005F823E /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				1156850A1E8B1000005F823E /* session.json */,
+				1156850B1E8B1000005F823E /* sessionItem.json */,
+				1156850C1E8B1000005F823E /* sessionItens.json */,
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		1156850E1E8B1000005F823E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1156850F1E8B1000005F823E /* SessionItemTests.swift */,
+				115685101E8B1000005F823E /* SessionTests.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		115685111E8B1000005F823E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				115685121E8B1000005F823E /* ReverseMappableTests.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		115685131E8B1000005F823E /* ViaPlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				115685141E8B1000005F823E /* ViaPlayUITests.swift */,
+				115685151E8B1000005F823E /* Info.plist */,
+			);
+			path = ViaPlayUITests;
+			sourceTree = "<group>";
+		};
+		115685301E8B107E005F823E /* ViaPlay */ = {
+			isa = PBXGroup;
+			children = (
+				115685311E8B107E005F823E /* application */,
+				115685341E8B107E005F823E /* controllers */,
+				115685371E8B107E005F823E /* extensions */,
+				115685391E8B107E005F823E /* interface */,
+				1156853C1E8B107E005F823E /* models */,
+				1156853F1E8B107E005F823E /* protocols */,
+				115685551E8B10BA005F823E /* resources */,
+				115685421E8B107E005F823E /* Supporting Files */,
+				115685451E8B107E005F823E /* viewcontrollers */,
+			);
+			path = ViaPlay;
+			sourceTree = "<group>";
+		};
+		115685311E8B107E005F823E /* application */ = {
+			isa = PBXGroup;
+			children = (
+				115685321E8B107E005F823E /* AppDelegate.swift */,
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		115685341E8B107E005F823E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				115685351E8B107E005F823E /* Client.swift */,
+				115685361E8B107E005F823E /* ViaPlay.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		115685371E8B107E005F823E /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				115685381E8B107E005F823E /* URLCache+Cache.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		115685391E8B107E005F823E /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				1156853A1E8B107E005F823E /* LaunchScreen.storyboard */,
+				1156853B1E8B107E005F823E /* Main.storyboard */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		1156853C1E8B107E005F823E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				1156853D1E8B107E005F823E /* Session.swift */,
+				1156853E1E8B107E005F823E /* SessionItem.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		1156853F1E8B107E005F823E /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				115685401E8B107E005F823E /* Provider.swift */,
+				115685411E8B107E005F823E /* ReverseMappable.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		115685421E8B107E005F823E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				115685431E8B107E005F823E /* Info.plist */,
+				115685441E8B107E005F823E /* main.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		115685451E8B107E005F823E /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				115685461E8B107E005F823E /* HomeSessionViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		115685551E8B10BA005F823E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				115685561E8B10BA005F823E /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		87668A851E815F93005F0EDB = {
+			isa = PBXGroup;
+			children = (
+				115685301E8B107E005F823E /* ViaPlay */,
+				115685031E8B1000005F823E /* ViaPlayTests */,
+				115685131E8B1000005F823E /* ViaPlayUITests */,
+				87668A8F1E815F94005F0EDB /* Products */,
+				D34249ADA5B3D1EF1250E82E /* Pods */,
+				984CAD3C4E7BC1C11E6BB988 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87668A8F1E815F94005F0EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87668A8E1E815F94005F0EDB /* ViaPlay.app */,
+				87668AA21E815F94005F0EDB /* ViaPlayTests.xctest */,
+				87668AAD1E815F94005F0EDB /* ViaPlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984CAD3C4E7BC1C11E6BB988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDBEEAB366ED40C47808F24C /* Pods_ViaPlay.framework */,
+				796C10044F0AB20077D62CC5 /* Pods_ViaPlayTests.framework */,
+				6E9384435B4659561D4F0B85 /* Pods_ViaPlayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34249ADA5B3D1EF1250E82E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				032D33BAAA45168EDC341E68 /* Pods-ViaPlay.debug.xcconfig */,
+				BD391E6D0AEDAFAB19A4AF2C /* Pods-ViaPlay.release.xcconfig */,
+				0E0547667C4782C3E9943023 /* Pods-ViaPlayTests.debug.xcconfig */,
+				F14BE8BE0A0032C7143A1568 /* Pods-ViaPlayTests.release.xcconfig */,
+				1AA9FFAE850FDF9BC6279AD9 /* Pods-ViaPlayUITests.debug.xcconfig */,
+				259F0F4A6A1296650A186119 /* Pods-ViaPlayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87668A8D1E815F93005F0EDB /* ViaPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668AB61E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay" */;
+			buildPhases = (
+				A21EB4B48538F7548ECDB1A0 /* [CP] Check Pods Manifest.lock */,
+				87668A8A1E815F93005F0EDB /* Sources */,
+				87668A8B1E815F93005F0EDB /* Frameworks */,
+				87668A8C1E815F93005F0EDB /* Resources */,
+				0142A35E52CEB1B21A078AA7 /* [CP] Embed Pods Frameworks */,
+				C75EB0A5AD45854E8102892F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViaPlay;
+			productName = "ViaPlay-TechTest";
+			productReference = 87668A8E1E815F94005F0EDB /* ViaPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87668AA11E815F94005F0EDB /* ViaPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlayTests" */;
+			buildPhases = (
+				BEE19BF0FE6031ADF1333969 /* [CP] Check Pods Manifest.lock */,
+				87668A9E1E815F94005F0EDB /* Sources */,
+				87668A9F1E815F94005F0EDB /* Frameworks */,
+				87668AA01E815F94005F0EDB /* Resources */,
+				759FBBB37E852178A2E9C051 /* [CP] Embed Pods Frameworks */,
+				D51D1FD435D1C9A3D8D04CBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87668AA41E815F94005F0EDB /* PBXTargetDependency */,
+			);
+			name = ViaPlayTests;
+			productName = "ViaPlay-TechTestTests";
+			productReference = 87668AA21E815F94005F0EDB /* ViaPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87668AAC1E815F94005F0EDB /* ViaPlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlayUITests" */;
+			buildPhases = (
+				FD9ABC4B7D198417E3F48FEA /* [CP] Check Pods Manifest.lock */,
+				87668AA91E815F94005F0EDB /* Sources */,
+				87668AAA1E815F94005F0EDB /* Frameworks */,
+				87668AAB1E815F94005F0EDB /* Resources */,
+				4E75428DBAB8585C238F5A4E /* [CP] Embed Pods Frameworks */,
+				42E562CCEE6F6B5A95427AD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87668AAF1E815F94005F0EDB /* PBXTargetDependency */,
+			);
+			name = ViaPlayUITests;
+			productName = "ViaPlay-TechTestUITests";
+			productReference = 87668AAD1E815F94005F0EDB /* ViaPlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87668A861E815F93005F0EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alessandro dos Santos Pinto";
+				TargetAttributes = {
+					87668A8D1E815F93005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						ProvisioningStyle = Automatic;
+					};
+					87668AA11E815F94005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87668A8D1E815F93005F0EDB;
+					};
+					87668AAC1E815F94005F0EDB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = LZASXEKJ7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 87668A8D1E815F93005F0EDB;
+					};
+				};
+			};
+			buildConfigurationList = 87668A891E815F93005F0EDB /* Build configuration list for PBXProject "ViaPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87668A851E815F93005F0EDB;
+			productRefGroup = 87668A8F1E815F94005F0EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87668A8D1E815F93005F0EDB /* ViaPlay */,
+				87668AA11E815F94005F0EDB /* ViaPlayTests */,
+				87668AAC1E815F94005F0EDB /* ViaPlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87668A8C1E815F93005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156854D1E8B107E005F823E /* Main.storyboard in Resources */,
+				1156854C1E8B107E005F823E /* LaunchScreen.storyboard in Resources */,
+				115685571E8B10BA005F823E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AA01E815F94005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A197BE1E8B19A90010205C /* sessionItens.json in Resources */,
+				11A197BC1E8B19A90010205C /* session.json in Resources */,
+				11A197BD1E8B19A90010205C /* sessionItem.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AAB1E815F94005F0EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0142A35E52CEB1B21A078AA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay/Pods-ViaPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E562CCEE6F6B5A95427AD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlayUITests/Pods-ViaPlayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E75428DBAB8585C238F5A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlayUITests/Pods-ViaPlayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		759FBBB37E852178A2E9C051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlayTests/Pods-ViaPlayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21EB4B48538F7548ECDB1A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEE19BF0FE6031ADF1333969 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C75EB0A5AD45854E8102892F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlay/Pods-ViaPlay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D51D1FD435D1C9A3D8D04CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViaPlayTests/Pods-ViaPlayTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9ABC4B7D198417E3F48FEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87668A8A1E815F93005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1156854F1E8B107E005F823E /* SessionItem.swift in Sources */,
+				115685471E8B107E005F823E /* AppDelegate.swift in Sources */,
+				115685501E8B107E005F823E /* Provider.swift in Sources */,
+				115685491E8B107E005F823E /* Client.swift in Sources */,
+				115685541E8B107E005F823E /* HomeSessionViewController.swift in Sources */,
+				1156854B1E8B107E005F823E /* URLCache+Cache.swift in Sources */,
+				115685511E8B107E005F823E /* ReverseMappable.swift in Sources */,
+				1156854A1E8B107E005F823E /* ViaPlay.swift in Sources */,
+				115685531E8B107E005F823E /* main.swift in Sources */,
+				1156854E1E8B107E005F823E /* Session.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668A9E1E815F94005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A197B81E8B19330010205C /* ViaPlayTests.swift in Sources */,
+				11A197B71E8B19330010205C /* ClientTests.swift in Sources */,
+				11A197BB1E8B19330010205C /* ReverseMappableTests.swift in Sources */,
+				11A197B61E8B19330010205C /* URLCache+CacheTests.swift in Sources */,
+				11A197B91E8B19330010205C /* SessionItemTests.swift in Sources */,
+				11A197BA1E8B19330010205C /* SessionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87668AA91E815F94005F0EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11A197B51E8B19290010205C /* ViaPlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87668AA41E815F94005F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87668A8D1E815F93005F0EDB /* ViaPlay */;
+			targetProxy = 87668AA31E815F94005F0EDB /* PBXContainerItemProxy */;
+		};
+		87668AAF1E815F94005F0EDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87668A8D1E815F93005F0EDB /* ViaPlay */;
+			targetProxy = 87668AAE1E815F94005F0EDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87668AB41E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87668AB51E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87668AB71E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 032D33BAAA45168EDC341E68 /* Pods-ViaPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87668AB81E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD391E6D0AEDAFAB19A4AF2C /* Pods-ViaPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = "ViaPlay/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		87668ABA1E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E0547667C4782C3E9943023 /* Pods-ViaPlayTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = ViaPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaPlay.app/ViaPlay";
+			};
+			name = Debug;
+		};
+		87668ABB1E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14BE8BE0A0032C7143A1568 /* Pods-ViaPlayTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = ViaPlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViaPlay.app/ViaPlay";
+			};
+			name = Release;
+		};
+		87668ABD1E815F94005F0EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA9FFAE850FDF9BC6279AD9 /* Pods-ViaPlayUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = ViaPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ViaPlay;
+			};
+			name = Debug;
+		};
+		87668ABE1E815F94005F0EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259F0F4A6A1296650A186119 /* Pods-ViaPlayUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LZASXEKJ7F;
+				INFOPLIST_FILE = ViaPlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.delarge.ViaPlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ViaPlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87668A891E815F93005F0EDB /* Build configuration list for PBXProject "ViaPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668AB41E815F94005F0EDB /* Debug */,
+				87668AB51E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87668AB61E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668AB71E815F94005F0EDB /* Debug */,
+				87668AB81E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87668AB91E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668ABA1E815F94005F0EDB /* Debug */,
+				87668ABB1E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87668ABC1E815F94005F0EDB /* Build configuration list for PBXNativeTarget "ViaPlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87668ABD1E815F94005F0EDB /* Debug */,
+				87668ABE1E815F94005F0EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87668A861E815F93005F0EDB /* Project object */;
+}
